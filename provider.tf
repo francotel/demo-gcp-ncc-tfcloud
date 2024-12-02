@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "google" {
-  project = var.project_id
+  project = var.project-id
   region  = var.region
   default_labels = {
     terraform = "true"
